@@ -52,11 +52,109 @@ a:focus {
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	background: #FFF;;
+	background: #FFF;
+	;
 }
 
 
 .container {
 	width: 1170px;
 	margin: 0 auto;
+}
+
+.header .first-texts {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.header .first-texts h5 {
+	color: #369E0F;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 30px;
+	letter-spacing: 10.08px;
+}
+
+.header .first-texts h6 {
+	color: #345F99;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: -0.56px;
+}
+
+.header .first-texts p {
+	color: #345F99;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: -0.56px;
+}
+
+.header .container .number {
+	margin-left: 100px;
+	margin-right: 20px;
+}
+
+.header .number .phone-number {
+	margin-top: -30px;
+	color: #345F99;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+	text-decoration: none;
+}
+
+.header .number .icons {
+	margin-top: 19px;
+}
+
+.header .number .icons a {
+	margin-left: 5px;
+}
+
+.header .number .icons a:first-child {
+	margin-left: 0;
+}
+
+.header .gmail-and__lupa a {
+	margin-top: -35px;
+	color: #51C444;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	text-decoration: none;
+}
+
+.header .gmail-and__lupa img {
+	margin-top: -30px;
+	margin-left: 78px;
+}
+
+.header .btn {
+	border-radius: 30px;
+	background: linear-gradient(267deg, #3EB40C 0%, #345F99 100%);
+	padding: 12px 30px 12px 30px;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 70px;
+	margin-top: -30px;
+	display: block;
+	margin-bottom: 13px;
+}
+
+.header .onlayn {
+	color: #51C444;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-decoration-line: underline;
+	margin-left: -178px;
+	margin-top: 53px;
 }
